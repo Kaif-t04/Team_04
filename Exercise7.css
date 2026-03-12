@@ -1,0 +1,46 @@
+#header{
+	width:90%;
+	background-image:url('lambo.jpg');
+	height:430px;
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+}
+#nav{
+	display:flex;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin:auto;
+	width:90%;
+}
+#nav span{
+	width:20%;
+	cursor:pointer; 
+	background-color:white;
+	border: 1px solid black;
+}
+#nav a{
+	text-decoration:none;
+	font-family:Arial, sans-sarif;
+	color:black;
+	font-size:25px;
+	padding-top:10px;
+	padding-bottom:10px;
+	display:block;
+}
+	#nav a:hover{
+	color:red;
+	font-size:27px;
+	margin-top:-2px;
+	margin-bottom:-2px;
+	}
+marquee{
+	align-content:center;
+	width:90%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:2px solid White;
+}
+	
