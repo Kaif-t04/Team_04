@@ -1,8 +1,10 @@
-<html>
-<head>
-    <title>Nordic </title>
-    <link rel="stylesheet" href="CSS1.css" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Nordic Security Handbook - Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<<<<<<< HEAD
 <body style="background-color: ECF0F1;">
 
 <div id="top">
@@ -18,5 +20,37 @@
     </span>
 </div> 
     
+=======
+<body>
+    <div class="login-modal">
+        <div class="login-card">
+            <div class="security-badge">🔐 SECURE ACCESS</div>
+            <h1>Nordic<br><span>Security Handbook</span></h1>
+            <p style="margin: 1rem 0 1.5rem; color: var(--text-muted);">Please sign in to access the internal security portal</p>
+            
+            <form action="dashboard.html" method="get">
+                <div class="input-group">
+                    <label>Username</label>
+                    <input type="text" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="signin-btn">Sign In</button>
+            </form>
+            
+            <a href="#" class="forgot">Forgot password?</a>
+            
+            <div class="demo-note">
+                🔑 <strong>Demo Access:</strong> Enter any username and password to continue
+            </div>
+            
+            <div class="warning-note">
+                ⚠️ This is a secure internal system. Unauthorized access is prohibited.
+            </div>
+        </div>
+    </div>
+>>>>>>> b4d7c9ebf0401b8b9d54225985c2452685094a36
 </body>
 </html>
