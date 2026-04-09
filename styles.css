@@ -242,6 +242,7 @@ h1, h2, h3, h4, h5, h6,
     margin-top: 1rem;
     font-weight: 500;
     font-family: 'Arial', sans-serif;
+    color:red;
 }
 
 .success-banner {
@@ -330,7 +331,7 @@ h1, h2, h3, h4, h5, h6,
     font-size: 1.1rem;
 }
 
-/* Two Columns Layout */
+ 
 .two-columns {
     display: flex;
     flex-wrap: wrap;
