@@ -370,3 +370,38 @@ footer {
     margin-top: 1rem;
     font-family: 'Arial', sans-serif;
 }
+
+
+
+
+
+/* Page 2 css */
+
+.alert-box {
+    background: var(--alert-light);
+    border: 1px solid var(--alert);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    color: var(--alert);
+}
+
+.alert-box strong {
+    color: var(--alert);
+}
+
+/* Horizontal Rule */
+hr {
+    margin: 1rem 0;
+    border-color: var(--border-light);
+}
+
+/* Ordered Lists */
+ol {
+    padding-left: 1.5rem;
+    margin: 0.8rem 0;
+}
+
+ol li {
+    margin-bottom: 0.4rem;
+}
