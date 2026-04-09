@@ -1,26 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <title>Nordic Security Handbook - Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<<<<<<< HEAD
-<body style="background-color: ECF0F1;">
-
-<div id="top">
-    <span style="float: left;">
-        <img src="images/logo.png" alt="logo" width="50px" height="50px"   style="  margin-left: 15px; margin-top:15px ;">
-    </span>
-    <span  style="float: left; display: flex; flex-direction: column; margin-top:1px; ">
-        <h2 style=" margin: 0; line-height: 1.1; font-family: Arial Black;">Nordic</h2>     <br/>
-        <p style="  margin: 0;  line-height: 1.1; font-size: 12px; font-family: Arial;">Security Handbook</p>  
-    </span>
-    <span>
-
-    </span>
-</div> 
-    
-=======
 <body>
     <div class="login-modal">
         <div class="login-card">
@@ -28,29 +11,49 @@
             <h1>Nordic<br><span>Security Handbook</span></h1>
             <p style="margin: 1rem 0 1.5rem; color: var(--text-muted);">Please sign in to access the internal security portal</p>
             
-            <form action="dashboard.html" method="get">
+            <form id="loginForm">
                 <div class="input-group">
                     <label>Username</label>
-                    <input type="text" name="username" placeholder="Enter your username" required>
+                    <input type="text" id="username" placeholder="Enter your username" required>
                 </div>
                 <div class="input-group">
                     <label>Password</label>
-                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <input type="password" id="password" placeholder="Enter your password" required>
                 </div>
                 <button type="submit" class="signin-btn">Sign In</button>
             </form>
             
-            <a href="#" class="forgot">Forgot password?</a>
-            
-            <div class="demo-note">
-                🔑 <strong>Demo Access:</strong> Enter any username and password to continue
-            </div>
-            
+            <a href="#" class="forgot" id="forgotPassword">Forgot password?</a>
             <div class="warning-note">
                 ⚠️ This is a secure internal system. Unauthorized access is prohibited.
             </div>
         </div>
     </div>
->>>>>>> b4d7c9ebf0401b8b9d54225985c2452685094a36
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        const usernameInput = document.getElementById('username');
+        const passwordInput = document.getElementById('password');
+        const forgotLink = document.getElementById('forgotPassword');
+
+        loginForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const username = usernameInput.value.trim();
+            const password = passwordInput.value.trim();
+            
+            if (username !== "" && password !== "") {
+                sessionStorage.setItem('nordic_logged_in', 'true');
+                sessionStorage.setItem('nordic_user', username);
+                window.location.href = 'dashboard.html';
+            } else {
+                alert("Please enter both username and password to access the Nordic Security Handbook.");
+            }
+        });
+
+        forgotLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            alert("Please contact IT Security Support at security@company.com or call +1 (234) 567-890 to reset your credentials.");
+        });
+    </script>
 </body>
 </html>
