@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Resources - Nordic Security Handbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="container topbar">
+                <div class="logo-box">
+                    <div class="logo-icon">
+                        <img src="images/logo.svg" alt="Nordic logo">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Nordic</h1>
+                        <p>Security Handbook</p>
+                    </div>
+                </div>
+                <a href="index.html"><button class="logout-btn">Logout</button></a>
+            </div>
+        </header>
+
+        <nav>
+            <div class="container nav-menu">
+                <a href="home.html">Home</a>
+                <a href="employee-resources.html" class="active">Employee Resources</a>
+                <a href="data-protection.html">Data Protection</a>
+                <a href="working-security.html">Working Security</a>
+                <a href="incident-reporting.html">Incident Reporting</a>
+            </div>
+        </nav>
+
+        <main>
+            <div class="container">
+                <div class="page-title">
+                    <div class="page-title-icon">👥</div>
+                    <div>
+                        <h2>Employee Resources</h2>
+                        <p>General rules and daily security practices for all employees</p>
+                    </div>
+                </div>
+
+                <section class="card">
+                    <h3>Acceptable Use</h3>
+                    <p>Rules for using company systems and devices</p>
+
+                    <h4 style="color:#016630;">Permitted Activities</h4>
+                    <ul>
+                        <li>Using company devices and systems for work-related activities</li>
+                        <li>Accessing approved cloud services and applications</li>
+                        <li>Reasonable personal use during breaks (email, news, etc.)</li>
+                        <li>Installing approved software with IT department permission</li>
+                    </ul>
+
+                    <h4 style="color:#E74C3C;">Prohibited Activities</h4>
+                    <ul>
+                        <li>Accessing, storing, or distributing illegal or inappropriate content</li>
+                        <li>Sharing login credentials or allowing unauthorized access</li>
+                        <li>Installing unauthorized software or applications</li>
+                        <li>Bypassing security controls or attempting to gain unauthorized access</li>
+                        <li>Using company resources for personal business or commercial activities</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3>Password &amp; Access Management</h3>
+                    <p>Strong passwords, MFA, and access control basics</p>
+
+                    <details>
+                        <summary>Password Requirements</summary>
+                        <ul style="margin-top: 12px;">
+                            <li>Use at least 12 characters</li>
+                            <li>Include upper and lower case letters, numbers, and symbols</li>
+                            <li>Avoid names, birthdays, and common words</li>
+                            <li>Do not reuse passwords across work accounts</li>
+                        </ul>
+                    </details>
+
+                    <details>
+                        <summary>Multi-Factor Authentication (MFA)</summary>
+                        <ul style="margin-top: 12px;">
+                            <li>Enable MFA on all business accounts</li>
+                            <li>Prefer authenticator apps over SMS when possible</li>
+                            <li>Never approve an MFA request you did not initiate</li>
+                        </ul>
+                    </details>
+
+                    <details>
+                        <summary>Access Control Principles</summary>
+                        <ul style="margin-top: 12px;">
+                            <li>Use least-privilege access</li>
+                            <li>Request access only when needed for work</li>
+                            <li>Report suspicious login behavior immediately</li>
+                        </ul>
+                    </details>
+                </section>
+
+                <section class="card">
+                    <h3>Email Security</h3>
+                    <p>Phishing awareness and safe email practices</p>
+
+                    <h4>Recognizing Phishing Attempts</h4>
+                    <div class="two-column">
+                        <div class="soft-red">
+                            <h4>Red Flags</h4>
+                            <ul>
+                                <li>Unexpected urgent requests</li>
+                                <li>Suspicious sender addresses</li>
+                                <li>Spelling and grammar errors</li>
+                                <li>Requests for credentials or payment</li>
+                                <li>Unfamiliar links or attachments</li>
+                            </ul>
+                        </div>
+
+                        <div class="soft-green">
+                            <h4>What to Do</h4>
+                            <ul>
+                                <li>Verify sender through other channels</li>
+                                <li>Hover over links to check URLs</li>
+                                <li>Do not open suspicious attachments</li>
+                                <li>Report suspicious emails to IT</li>
+                                <li>When in doubt, ask IT first</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h4>Safe Email Practices</h4>
+                    <ul>
+                        <li>Use BCC when sending to large distribution lists to protect privacy</li>
+                        <li>Never send passwords or sensitive data via unencrypted email</li>
+                        <li>Double-check recipients before sending sensitive information</li>
+                        <li>Be cautious with auto-forwarding rules and delegated access</li>
+                        <li>Use encryption tools for confidential client communications</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3>Cloud Usage &amp; Document Sharing</h3>
+                    <p>Guidelines for secure use of cloud tools and services</p>
+
+                    <h4>Approved Cloud Services</h4>
+                    <div class="approved-grid">
+                        <div class="approved-item">✔ Microsoft 365 / OneDrive</div>
+                        <div class="approved-item">✔ Google Workspace</div>
+                        <div class="approved-item">✔ Company SharePoint</div>
+                        <div class="approved-item">✔ Approved project management tools</div>
+                    </div>
+
+                    <h4>Secure Document Sharing</h4>
+                    <ol>
+                        <li><strong>Set appropriate permissions:</strong> Only share with specific people who need access</li>
+                        <li><strong>Use expiration dates:</strong> Set links to expire when no longer needed</li>
+                        <li><strong>Avoid public links:</strong> Never use “anyone with the link” for sensitive documents</li>
+                        <li><strong>Review regularly:</strong> Audit shared documents and revoke unnecessary access</li>
+                        <li><strong>Use passwords:</strong> Add password protection for highly sensitive files</li>
+                    </ol>
+
+                    <div class="alert-box" style="margin-top: 18px; margin-bottom: 0;">
+                        <strong>Important:</strong> Never store customer data in personal cloud accounts. Always use company-approved services.
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <strong>Nordic</strong> | © 2026 All rights reserved. | Last updated: March 2026
+        </footer>
+    </div>
+</body>
+</html>

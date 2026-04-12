@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Protection - Nordic Security Handbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="container topbar">
+                <div class="logo-box">
+                    <div class="logo-icon">
+                        <img src="images/logo.svg" alt="Nordic logo">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Nordic</h1>
+                        <p>Security Handbook</p>
+                    </div>
+                </div>
+                <a href="index.html"><button class="logout-btn">Logout</button></a>
+            </div>
+        </header>
+
+        <nav>
+            <div class="container nav-menu">
+                <a href="home.html">Home</a>
+                <a href="employee-resources.html">Employee Resources</a>
+                <a href="data-protection.html" class="active">Data Protection</a>
+                <a href="working-security.html">Working Security</a>
+                <a href="incident-reporting.html">Incident Reporting</a>
+            </div>
+        </nav>
+
+        <main>
+            <div class="container">
+                <div class="page-title">
+                    <div class="page-title-icon">🗂</div>
+                    <div>
+                        <h2>Data Protection</h2>
+                        <p>Ensuring secure handling of company and customer data</p>
+                    </div>
+                </div>
+
+                <section class="card">
+                    <h3>Data Classification</h3>
+                    <p>Understanding different levels of data sensitivity</p>
+                    <p style="margin-top: 14px;">All data must be classified according to its sensitivity level to ensure appropriate protection measures are applied.</p>
+
+                    <div class="soft-gray" style="margin-top: 18px;">
+                        <span class="tag tag-public">Public</span>
+                        <h4>Public Information</h4>
+                        <p>Information that can be freely shared with the public without risk.</p>
+                        <h4>Examples:</h4>
+                        <ul>
+                            <li>Published marketing materials</li>
+                            <li>Public website content</li>
+                            <li>Press releases and announcements</li>
+                            <li>General company information</li>
+                        </ul>
+                        <div class="soft-purple" style="margin-top: 12px;">
+                            <strong>Protection:</strong> No special handling required. Can be stored anywhere.
+                        </div>
+                    </div>
+
+                    <div class="soft-gray" style="margin-top: 18px;">
+                        <span class="tag tag-internal">Internal</span>
+                        <h4>Internal Information</h4>
+                        <p>Information intended for use within the organization only.</p>
+                        <h4>Examples:</h4>
+                        <ul>
+                            <li>Internal policies and procedures</li>
+                            <li>Employee directories</li>
+                            <li>Project documentation (non-sensitive)</li>
+                            <li>Internal communications and memos</li>
+                        </ul>
+                        <div class="soft-purple" style="margin-top: 12px;">
+                            <strong>Protection:</strong> Store on company systems only. Limit sharing to employees. Use password protection for email attachments.
+                        </div>
+                    </div>
+
+                    <div class="soft-red" style="margin-top: 18px;">
+                        <span class="tag tag-confidential">Confidential</span>
+                        <h4>Confidential Information</h4>
+                        <p>Highly sensitive information requiring the strictest protection.</p>
+                        <h4>Examples:</h4>
+                        <ul>
+                            <li>Customer personal data (PII)</li>
+                            <li>Financial records and contracts</li>
+                            <li>Proprietary client information</li>
+                            <li>Security credentials and keys</li>
+                            <li>Strategic business plans</li>
+                        </ul>
+                        <div class="soft-orange" style="margin-top: 12px;">
+                            <strong>Protection:</strong> Encryption required. Strict access controls. MFA mandatory. Never share outside authorized personnel. Secure deletion when no longer needed.
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h3>Data Handling Procedures</h3>
+                    <p>Guidelines for accessing and using sensitive data</p>
+
+                    <h4>General Data Handling Rules</h4>
+                    <div class="two-column">
+                        <div class="soft-green">
+                            <h4>Do</h4>
+                            <ul>
+                                <li>Only access data necessary for your work</li>
+                                <li>Encrypt sensitive data in transit and at rest</li>
+                                <li>Use secure file transfer methods</li>
+                                <li>Lock your screen when handling sensitive data</li>
+                                <li>Classify data before sharing or storing</li>
+                            </ul>
+                        </div>
+
+                        <div class="soft-red">
+                            <h4>Don't</h4>
+                            <ul>
+                                <li>Share data with unauthorized individuals</li>
+                                <li>Store sensitive data on personal devices</li>
+                                <li>Use unencrypted email for confidential data</li>
+                                <li>Leave printed confidential documents unattended</li>
+                                <li>Take customer data outside approved systems</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <h4>Customer Data Protection</h4>
+                    <div class="soft-purple">
+                        <ol>
+                            <li><strong>Compliance First:</strong> Always follow customer-specific data protection requirements and contracts</li>
+                            <li><strong>Minimize Collection:</strong> Only collect and retain customer data that is absolutely necessary</li>
+                            <li><strong>Secure Processing:</strong> Use customer-approved tools and environments for processing their data</li>
+                            <li><strong>Incident Reporting:</strong> Report any customer data incidents to management immediately</li>
+                            <li><strong>Proper Disposal:</strong> Securely delete customer data when the project concludes</li>
+                        </ol>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <h4>Personal Data (PII) Guidelines</h4>
+                    <p>Personal Identifiable Information (PII) requires extra care and compliance with data protection regulations:</p>
+                    <div class="small-box-list" style="margin-top: 14px;">
+                        <div class="small-box">
+                            <h4>What is PII?</h4>
+                            <ul>
+                                <li>Names, addresses</li>
+                                <li>Email, phone numbers</li>
+                                <li>ID numbers</li>
+                                <li>Financial information</li>
+                                <li>Health records</li>
+                            </ul>
+                        </div>
+                        <div class="small-box">
+                            <h4>Protection Required</h4>
+                            <ul>
+                                <li>Encryption at all times</li>
+                                <li>Access logging</li>
+                                <li>Regular audits</li>
+                                <li>Data minimization</li>
+                                <li>Consent tracking</li>
+                            </ul>
+                        </div>
+                        <div class="small-box">
+                            <h4>Your Responsibility</h4>
+                            <ul>
+                                <li>Process lawfully</li>
+                                <li>Limit access</li>
+                                <li>Report breaches</li>
+                                <li>Respect privacy rights</li>
+                                <li>Secure deletion</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h3>Storage &amp; Retention</h3>
+                    <p>Where to store data and when to delete it</p>
+
+                    <h4>Approved Storage Locations</h4>
+                    <div class="soft-purple">
+                        <h4>Company-Managed Systems</h4>
+                        <ul>
+                            <li>Company file servers and SharePoint</li>
+                            <li>Approved cloud storage</li>
+                            <li>Customer-provided secure environments</li>
+                            <li>IT-approved project management tools</li>
+                        </ul>
+                    </div>
+
+                    <div class="alert-box" style="margin-top: 16px;">
+                        <strong>Prohibited Storage Locations:</strong>
+                        Personal cloud accounts, personal email accounts, unencrypted USB drives, personal devices without company management, and unapproved third-party services.
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <h4>Data Retention Periods</h4>
+                    <div class="info-row">
+                        <span><strong>Active Project Data</strong><br>Data related to ongoing projects</span>
+                        <span>Project Duration + 1 year</span>
+                    </div>
+                    <div class="info-row">
+                        <span><strong>Customer Data</strong><br>Per customer contract requirements</span>
+                        <span>Contract Specified</span>
+                    </div>
+                    <div class="info-row">
+                        <span><strong>Financial Records</strong><br>Invoices, receipts, tax documents</span>
+                        <span>7 years</span>
+                    </div>
+                    <div class="info-row">
+                        <span><strong>Employee Records</strong><br>Personnel files and evaluations</span>
+                        <span>5 years post-employment</span>
+                    </div>
+                    <div class="info-row">
+                        <span><strong>Email and Communications</strong><br>General business correspondence</span>
+                        <span>2 years</span>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <h4>Secure Data Deletion</h4>
+                    <ul>
+                        <li><strong>Digital Data:</strong> Use secure deletion tools that overwrite data</li>
+                        <li><strong>Physical Documents:</strong> Use cross-cut shredders for confidential papers</li>
+                        <li><strong>Storage Devices:</strong> Contact IT for proper disposal of hard drives and USB devices</li>
+                        <li><strong>Cloud Data:</strong> Ensure data is removed from all backups and archives</li>
+                        <li><strong>Customer Data:</strong> Follow customer-specific deletion requirements and obtain confirmation</li>
+                    </ul>
+
+                    <div class="alert-box" style="margin-top: 18px; margin-bottom: 0;">
+                        <strong>A Legal Hold Exception:</strong> Do not delete any data subject to legal hold, litigation, or ongoing investigation.
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <strong>Nordic</strong> | © 2026 All rights reserved. | Last updated: March 2026
+        </footer>
+    </div>
+</body>
+</html>
