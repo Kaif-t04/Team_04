@@ -43,7 +43,7 @@ img {
 
 /* HEADER */
 header {
-    background-color: #111111;
+    background-color: #1F1F1F;
     border-bottom: 1px solid #2a2a2a;
 }
 
@@ -101,7 +101,7 @@ header {
 
 /* NAV */
 nav {
-    background-color: #111111;
+    background-color: #1f1f1f;
     border-bottom: 1px solid #2a2a2a;
 }
 
@@ -634,7 +634,7 @@ summary {
 
 /* FOOTER */
 footer {
-    background-color: #111111;
+    background-color: #1f1f1f;
     color: #d7dbe3;
     border-top: 1px solid #2a2a2a;
     text-align: center;
