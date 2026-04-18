@@ -41,7 +41,7 @@ img {
     margin: 0 auto;
 }
 
-/* HEADER */
+/* Website Header */
 header {
     background-color: #1F1F1F;
     border-bottom: 1px solid #2a2a2a;
@@ -99,7 +99,7 @@ header {
     transform: translateY(-1px);
 }
 
-/* NAV */
+/* THe navigation */
 nav {
     background-color: #1f1f1f;
     border-bottom: 1px solid #2a2a2a;
@@ -144,7 +144,7 @@ main {
     padding: 30px 0 42px;
 }
 
-/* LOGIN */
+/* LOGIN page */
 .login-page {
     min-height: 100vh;
     display: flex;
