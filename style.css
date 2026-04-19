@@ -229,7 +229,7 @@ main {
     margin-bottom: 22px;
 }
 
-.page-title-icon {
+   .page-title-icon {
     width: 44px;
     height: 44px;
     background-color: #ece7ff;
@@ -251,7 +251,7 @@ main {
     color: #555;
 }
 
-/* HERO */
+/* Website hero*/
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -647,7 +647,7 @@ footer strong {
     color: #ffffff;
 }
 
-/* RESPONSIVE */
+/* responsive section */
 @media (max-width: 900px) {
     .hero,
     .grid-2,
