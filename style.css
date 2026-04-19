@@ -131,12 +131,14 @@ nav {
 .nav-menu a.active {
     background-color: #ece7ff;
     color: #3408FF;
+    text-decoration: underline;
 }
 
 .nav-menu a.active:hover {
     color: #6366f1;
     background: #111827;
     border-radius: 8px;
+    text-decoration: underline;
 }
 
 main {
